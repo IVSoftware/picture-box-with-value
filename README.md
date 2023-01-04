@@ -37,7 +37,7 @@ Add a 3x3 `TableLayoutPanel` to the main form and initialize it:
 
             for (int col = 0; col < tableLayoutPanel.ColumnCount; col++)
             {
-                for (int row = 0; row < tableLayoutPanel.ColumnCount; row++)
+                for (int row = 0; row < tableLayoutPanel.RowCount; row++)
                 {
                     var ship = new CustomPictureBox
                     {
